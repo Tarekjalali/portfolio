@@ -13,25 +13,22 @@ const GameRallyCarousel = () => {
   // Content for each image (can be dynamic, based on your use case)
   const popoverContent = [
     {
-      title: "Image 1: Growth Trend",
-      description: "This image shows the cumulative growth trend of the community activities.",
+      title: "Discover New Releases",
+      description: "Explore the freshest titles in gaming, powered by RAWG API.",
     },
     {
-      title: "Image 2: Community Engagement",
-      description: "This image illustrates community engagement over time.",
+      title: "Join Gaming Events",
+      description: "Compete and showcase your skills in exciting gaming tournaments.",
     },
     {
-      title: "Image 3: Activity Analysis",
-      description: "This image highlights the analysis of activity patterns in the community.",
+      title: "Your Profile Hub",
+      description: "Easily manage your events, applications, and gaming journey.",
     },
     {
-      title: "Image 4: User Interaction",
-      description: "This image shows user interaction trends across the platform.",
-    },
-    {
-      title: "Image 5: Future Predictions",
-      description: "This image illustrates the predicted future growth of the community.",
-    },
+      title: "Event Applicants",
+      description: "Review participants and manage applications seamlessly.",
+    }
+    
   ];
 
   // Handle hover event to stop autoplay and show the popup
@@ -117,17 +114,12 @@ const GameRallyCarousel = () => {
               style={{ cursor: 'pointer' }}
             />
             <img
-              src="https://i.ibb.co/HGVcr41/3.jpg"
+              src="https://i.ibb.co/b2K2Xz0/4.jpg"
               height="250"
               width="500"
               style={{ cursor: 'pointer' }}
             />
-            <img
-              src="https://i.ibb.co/HGVcr41/3.jpg"
-              height="250"
-              width="500"
-              style={{ cursor: 'pointer' }}
-            />
+            
           </Carousel>
 
           {/* Popup */}
@@ -145,15 +137,7 @@ const GameRallyCarousel = () => {
               <div className="p-3 space-y-2">
                 <h3 className="font-semibold text-gray-900 dark:text-white">{popoverContent[activeIndex].title}</h3>
                 <p>{popoverContent[activeIndex].description}</p>
-                <a
-                  href="#"
-                  className="flex items-center font-medium text-blue-600 dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:underline"
-                >
-                  Read more
-                  <svg className="w-2 h-2 ms-1.5 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
-                  </svg>
-                </a>
+                
               </div>
             </div>
           )}

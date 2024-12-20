@@ -6,7 +6,31 @@ const GameRallyDescription = () => {
         <h3 class="mb-4 text-3xl font-extrabold text-gray-700 dark:text-white md:text-3xl lg:text-3xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">GameRally</span> </h3>
         <p>GameRally is an interactive platform designed to bring gamers together by organizing exciting gaming events, including tournaments and challenges. The platform allows users to engage with their community, participate in events, and stay updated with the latest gaming news.
             (Hover the images for more details)
+        
         </p>
+        <p>
+        <b>Explore the platform:</b>{' '}
+        <a
+          href="https://gamerfront.onrender.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          Game Rally
+        </a>
+      </p>
+      <p>
+        <b>GitHub Repository:</b>{' '}
+        <a
+          href="https://github.com/Tarekjalali/grFront"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          https://github.com/Tarekjalali/grFront
+        </a>
+      </p>
+        
         <h4>Key Technologies used</h4>
         <div style={{display :'flex' , gap :'120px'}}>
         <ul style={{listStyle :'disc' , marginLeft :'20px'}}>
