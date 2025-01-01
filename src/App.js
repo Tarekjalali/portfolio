@@ -5,6 +5,8 @@ import GameRallyCarousel from './Components/GameRallyCarousel';
 import GameRallyDescription from './Components/GameRallyDescription';
 import Hero from './Components/Hero';
 import Skills from './Components/Skills';
+import StayAheadCarousel from './Components/StayAheadCarousel';
+import StayAheadDescription from './Components/StayAheadDescription';
 
 
 
@@ -29,6 +31,14 @@ function App() {
       <div style={{ display :'flex', justifyContent :'end', marginRight :'20px', marginTop:'20px'}}>
       <GameRallyDescription></GameRallyDescription>
       <GameRallyCarousel></GameRallyCarousel>
+      </div>
+      <br></br>
+      <div style={{ display :'flex', justifyContent :'end', marginRight :'20px', marginTop:'20px'}}>
+      <StayAheadDescription></StayAheadDescription>
+      <StayAheadCarousel></StayAheadCarousel>
+      
+      
+      
       </div>
       <br></br>
       

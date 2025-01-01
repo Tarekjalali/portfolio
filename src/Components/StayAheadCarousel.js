@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Carousel, RadioGroup, Radio, Divider } from 'rsuite';
 import "rsuite/dist/rsuite.min.css"; // Make sure to import the CSS
 
-const GameRallyCarousel = () => {
+const StayAheadCarousel = () => {
   const [placement, setPlacement] = React.useState('left');
   const [shape, setShape] = React.useState('bar');
   const [isHovered, setIsHovered] = useState(false); // State to track hover event
@@ -13,22 +13,17 @@ const GameRallyCarousel = () => {
   // Content for each image (can be dynamic, based on your use case)
   const popoverContent = [
     {
-      title: "Discover New Releases",
-      description: "Explore the freshest titles in gaming, powered by RAWG API.",
+      title: "Create Your Account",
+      description: "Sign up and activate your account with the verification code sent to your email.",
     },
     {
-      title: "Join Gaming Events",
-      description: "Compete and showcase your skills in exciting gaming tournaments.",
+      title: "Manage Your Tasks",
+      description: "Add tasks, set deadlines, and track progress. Get email reminders for due tasks.",
     },
     {
-      title: "Your Profile Hub",
-      description: "Easily manage your events, applications, and gaming journey.",
-    },
-    {
-      title: "Event Applicants",
-      description: "Review participants and manage applications seamlessly.",
+      title: "Edit with Ease",
+      description: "Update task titles or adjust deadlines to fit your schedule effortlessly.",
     }
-    
   ];
 
   // Handle hover event to stop autoplay and show the popup
@@ -96,30 +91,24 @@ const GameRallyCarousel = () => {
             onSelect={handleSelect} // Update active index when carousel slides
           >
             <img
-              src="https://i.ibb.co/C039ngV/1.jpg"
+              src="https://i.ibb.co/yFwKh9V/c2.png"
               height="250"
               width="500"
               style={{ cursor: 'pointer' }}
             />
             <img
-              src="https://i.ibb.co/2Nw9xFt/2.jpg"
+              src="https://i.ibb.co/pJYjBPL/4.png"
               height="250"
               width="500"
               style={{ cursor: 'pointer' }}
             />
             <img
-              src="https://i.ibb.co/HGVcr41/3.jpg"
+              src="https://i.ibb.co/Nn3sHJT/c1.jpg"
               height="250"
               width="500"
               style={{ cursor: 'pointer' }}
             />
-            <img
-              src="https://i.ibb.co/b2K2Xz0/4.jpg"
-              height="250"
-              width="500"
-              style={{ cursor: 'pointer' }}
-            />
-            
+           
           </Carousel>
 
           {/* Popup */}
@@ -147,4 +136,4 @@ const GameRallyCarousel = () => {
   );
 };
 
-export default GameRallyCarousel;
+export default StayAheadCarousel;
