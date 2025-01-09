@@ -4,7 +4,7 @@ const StayAheadDescription = () => {
   return (
     <div style={{paddingLeft : '40px' , paddingRight : '40px', width :'790px'}}>
         <h3 class="mb-4 text-3xl font-extrabold text-gray-700 dark:text-white md:text-3xl lg:text-3xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Stay Ahead</span> </h3>
-        <p>Stay Ahead is a powerful and intuitive task management platform designed to help you stay organized and productive. Easily create, track, and edit tasks while setting clear deadlines. With automated email reminders and a sleek user interface, TaskMaster ensures you never miss a deadline.
+        <p>Stay Ahead is a powerful and intuitive task management platform designed to help you stay organized and productive. Easily create, track, and edit tasks while setting clear deadlines. With automated email reminders and a sleek user interface, Stay Ahead ensures you never miss a deadline.
              (Hover the images for more details)
         
         </p>
